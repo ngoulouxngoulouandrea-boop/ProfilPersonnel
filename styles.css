@@ -1,0 +1,111 @@
+/* ==========================================
+   Style simple - bleu
+   ========================================== */
+
+/* ----- Initialisation de la page ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----- Corps de la page ----- */
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #f4f8fc;
+    line-height: 1.6;
+}
+
+/* ----- En-tête ----- */
+header {
+    background-color: #1D5EF5;
+    color: white;
+    text-align: center;
+    padding: 32px;
+}
+
+header img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 16px;
+}
+
+/* ----- Contenu principal ----- */
+main {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+/* ----- Sections ----- */
+section {
+    background-color: white;
+    border: 1px solid #cddcf0;
+    border-radius: 6px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    color: #1D5EF5;
+    border-bottom: 2px solid #cddcf0;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+/* ----- Liens ----- */
+a {
+    color: #1D5EF5;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ----- Liste des compétences ----- */
+ul {
+    padding-left: 20px;
+}
+
+/* ----- Formulaire de contact ----- */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cddcf0;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+button {
+    margin-top: 16px;
+    margin-right: 8px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1D5EF5;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #13315C;
+}
+
+/* ----- Pied de page ----- */
+footer {
+    text-align: center;
+    padding: 16px;
+    background-color: #1D5EF5;
+    color: white;
+}
